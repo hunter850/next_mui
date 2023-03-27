@@ -7,6 +7,7 @@
         "open-browser": "start http://localhost:3000",
         "build": "next build",
         "build-serve": "node prod-serve.cjs",
+        "export": "next build && next export",
         "start": "next start",
         "lint": "next lint"
     },
